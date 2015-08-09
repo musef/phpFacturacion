@@ -1,0 +1,99 @@
+/**
+    * * * * * general es el fichero css de incluido en todos las vistas con css *** *
+    * * @Author musef v.1.0 2015-08-01
+*/
+
+/* GENERAL */
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: white;
+    color:gray;
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2.5px solid;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 1.30em;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.15em;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.headerClass {
+    width: 1000px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3em;
+    text-align: center;
+    border: 1px solid;
+}
+
+.headerClass h1 {
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.headerClass ul {
+    margin-top: 10px;
+
+}
+.headerClass ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.headerClass button {    
+    border:none;
+    background-color: appworkspace;
+    color:black;
+    font-size: 1.3em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.headerClass button:hover {  
+    border:none;
+    background-color: blue;
+    color:white;
+    font-size: 1.3em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.bodyClass {
+    width: 1000px;
+    min-height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3em;
+    border: 1px solid;
+}
+
+.bodyClass label {
+    font-weight: bold;
+}
+
+.footerClass {
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    text-align: center;
+    border: 1px solid;
+}

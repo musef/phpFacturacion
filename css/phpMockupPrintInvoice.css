@@ -1,0 +1,213 @@
+/**
+    * * * * * PrintInvoice es el fichero css incluido en la vista printInvoice.php *** *
+    * * @Author musef v.1.0 2015-08-01
+*/
+
+body {
+    width: 1000px;
+    height: 1450px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    border: 3px solid;
+    font-size: 22px;
+
+}
+
+.titleCompany {
+	width: 990px;
+	height: 300px;
+	padding-left: 10px;
+}
+
+.titleCompany h1{
+	font-size: 2.2em;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.titleCompany h2{
+	text-align: left;
+}
+
+.dataCompany {
+	float: left;
+}
+
+.logoCompany img {
+	float: right;
+	width: 150px;
+	height:100px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+.capInvoice {
+	clear: both;
+	width: 998px;
+	height: 200px;
+	margin-top: 0px;
+}
+
+.invoiceRef {
+	width: 500px;
+	float: left;
+	padding-left: 10px;
+}
+
+.invoiceRef h3{
+	text-align: left;
+}
+
+.invoiceCustomer {
+	width: 450px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	border-radius: 30px 30px 30px 30px;
+	-moz-border-radius: 30px 30px 30px 30px;
+	-webkit-border-radius: 30px 30px 30px 30px;	
+	border: 1px solid;
+	padding-left: 20px;
+	text-align: left;
+}
+.invoiceCustomer h3{
+	text-align: left;
+}
+.invoiceCustomer h4{
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.detail {
+	clear: both;
+	width: 1000px;
+	height: 650px;	
+}
+
+.detail .headNormal {
+    width: 120px;
+    background-color: white;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.detail .headShorty {
+    width: 70px;
+    background-color: white;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.detail .headSuper {
+    width: 310px;
+    background-color: white;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.detail .normal {
+    width: 105px;
+    font-size: 1em;
+}
+
+.detail .super {
+    width: 860px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.detail .shorty {
+    margin-top: 0px; 
+    width: 70px;
+    font-size: 1em;
+}
+
+.amount {
+	float: right;
+	padding-right: 10px;
+}
+
+.amount .shorty, .normal {
+	text-align: right;
+}
+
+.desc {
+	clear: both;
+}
+
+hr {
+	border: 2px solid;
+}
+
+.subtotals {
+	clear: both;
+	margin-top: 20px;
+	height: 100px;
+
+}
+
+.subtotals tr th {
+	text-align: center;
+	font-size: 1em;
+	background-color: #EEEEEE;
+	color: #000000;
+	margin-left: 10px;
+}
+
+.subtotals table {
+	width: 975px;
+}
+
+.subtotals tr td {
+	text-align: center;
+	background-color: #EEEEEE;
+	color: #000000;
+	margin-left: 10px;
+}
+
+
+.total {
+	clear: both;
+	height: 50px;
+	padding-right: 10px;
+	font-size: 1.1em;
+	font-weight: bolder;
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+
+.total label {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 1.1em;
+	background-color: #EEEEEE;
+	color: #000000;	
+	border-radius: 30px 30px 30px 30px;
+	-moz-border-radius: 30px 30px 30px 30px;
+	-webkit-border-radius: 30px 30px 30px 30px;	
+	border: 2px solid;	
+}
+
+.payment {
+	clear: both;
+	height: 50px;
+	margin-bottom: 15px;
+}
+
+.footer {
+	clear: both;
+	left: 0px;
+	width: 1000px;
+	height: 30px;
+	border: 1px solid;
+	font-size: 0.5em;
+	text-align: center;
+}

@@ -1,0 +1,134 @@
+/**
+    * * * * * list es el fichero css incluido en la vista mainList.php *** *
+    * * @Author musef v.1.0 2015-08-01
+*/
+
+.selectorListados {
+    width: 300px;
+    min-height: 440px;
+    float: left;
+    border: 1px solid;
+    text-align: center;
+}
+
+.selectorListados div {
+    margin-bottom: 20px;
+}
+
+
+.selectorListados h2 {
+    text-align: center;
+}
+
+.selectorListados button{
+    width: 125px;
+    height: 35px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.seleccionListados {
+    width: 650px;
+    min-height: 400px;
+    float: left;
+    position: relative;
+}
+
+.seleccionListados label {
+    margin-left: 10px;
+}
+
+.seleccionListados select {
+    width: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.listadoClientes {
+    width: 600px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.listadofacturas {
+    width: 600px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.listadotrabajos {
+    width: 600px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.buttonsList {
+    text-align: center;
+}
+
+.buttonsList button {
+    display: inline-block ;
+    width: 130px;
+    height: 40px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* ZONA LISTADO LIST.PHP */
+.listado {
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    float: left;
+}
+/*
+.listado table{
+    width: 990px;
+    margin: 0 auto 0 auto;
+}
+*/
+th {
+    border: 2px solid;
+}
+
+td {
+    border: 1px solid;
+    min-width:100px;
+}
+
+.tablas {
+    min-width: 500px;
+    min-height: 300px;
+    margin: 0 auto 0 auto;
+}
+.tableData {
+    text-align: left;
+    float: left;
+
+}
+
+.tableAmounts {
+    text-align: right;
+    float: left;
+
+}
+
+
+.buttonRet input[type="submit"]{
+    margin-top: 50px;
+}
+
+h1{
+
+    text-align: center;
+}
+
+h3{
+    font-size: 1.4em;
+    text-align: left;
+}
+
+hr {
+    margin-top: 50px;
+}

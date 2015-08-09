@@ -1,0 +1,35 @@
+/**
+    * * * * * index es el fichero css incluido en la vista index.php *** *
+    * * @Author musef v.1.0 2015-08-01
+*/
+
+.identificacion {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    width: 425px;
+    margin: 100px auto 50px auto;
+}
+
+h1 {
+    font-size: 3em;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.identificacion table {
+    width: 425px;
+    margin: 0 auto 0 auto;
+}
+
+.identificacion input {
+    width: 255px;
+    height: 45px;
+}
+
+.identificacion button {
+    width: 190px;
+    height: 45px;
+    font-size: 1em;
+    font-weight: bold;
+}

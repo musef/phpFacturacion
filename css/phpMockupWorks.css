@@ -1,0 +1,131 @@
+/**
+    * * * * * works es el fichero css incluido en la vista mainWorks.php *** *
+    * * @Author musef v.1.0 2015-08-01
+*/
+
+.selectorTrabajos {
+    width: 300px;
+    min-height: 440px;
+    float: left;
+    border: 1px solid;
+    
+}
+
+.selectorTrabajos select {
+    text-align: center;
+    margin-left: 5px;
+}
+
+.selectorTrabajos ul {
+    text-align: left;
+    list-style:  decimal;
+}
+
+.selectorTrabajos input[type="submit"]{
+    display: inline-block ;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.buttonSelector {
+    text-align: center;
+    margin-top: 10px;
+}
+.seleccionTrabajos {
+    width: 650px;
+    min-height: 400px;
+    margin-left: 15px;
+    float: left;
+}
+
+.seleccionTrabajos h3 {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.seleccionTrabajos input {
+    width: 300px;
+}
+
+.seleccionTrabajos textarea {
+    width: 650px;
+}
+
+.codeWorks {
+    display: inline;
+    text-align: left;
+}
+
+.codeWorks input {
+    width: 100px;
+}
+
+.codeWorks #datework {
+    width: 125px;
+}
+
+.seleccionTrabajos #mensaje{
+    color: red;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.textWorks {
+    margin-top: 20px;
+
+}
+
+.amountsWorks {
+    margin-top: 0px;
+    display: inline-block;
+   
+}
+
+.amountsWorks input {
+    width: 100px;
+    float: left;
+}
+
+.amountsWorks label {
+    float: left;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+#calcwork {
+    width: 40px;
+    float: right;
+}
+
+.buttonsWorks {
+    text-align: center;
+}
+
+.buttonsWorks button {
+    display: inline-block ;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+button.imprimir{
+    float: right;
+    width: 75px;
+}
+
+.buttonsSelected {
+    position: absolute;
+    top: 175px;
+    left: 600px;
+    width: 450px;
+}
+
+.buttonWork button{
+    text-align: left;
+    width: 350px;
+}

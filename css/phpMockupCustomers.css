@@ -1,0 +1,101 @@
+/**
+    * * * * * customers es el fichero css de incluido en la vista mainCustomers.php *** *
+    * * @Author musef v.1.0 2015-08-01
+*/
+
+.selectorClientes {
+    width: 300px;
+    min-height: 440px;
+    float: left;
+    border: 1px solid;
+}
+
+.selectorClientes div {
+    margin-bottom: 20px;
+}
+
+.selectorClientes select {
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.selectorClientes h2 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.selectorClientes input[type='submit']{
+    width: 125px;
+    height: 35px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buttonSelector {   
+    text-align: center;
+}
+
+.seleccionClientes {
+    width: 650px;
+    min-height: 400px;
+    margin-left: 15px;
+    float: left;
+    position: relative;
+}
+
+.seleccionClientes h3 {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.seleccionClientes table {
+    width: 500px;
+    margin: 0 auto 0 auto;
+
+}
+
+.seleccionClientes label {
+    margin-left: 10px;
+}
+
+.seleccionClientes input[type="text"] {
+    width: 250px;
+}
+
+.seleccionClientes select {
+    width: 250px;
+}
+
+.seleccionClientes #mensaje{
+    color: red;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.buttonsCustomers {
+    text-align: center;
+}
+
+.buttonsCustomers button {
+    display: inline-block ;
+    width: 130px;
+    height: 40px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.codeCustomers {
+    display: inline;
+    text-align: left;
+}
+
+.codeCustomers input {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.codeCustomers .titlework {
+    width: 300px;
+}

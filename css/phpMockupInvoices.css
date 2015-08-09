@@ -1,0 +1,198 @@
+/**
+    * * * * * invoices es el fichero css incluido en la vista mainInvoices.php *** *
+    * * @Author musef v.1.0 2015-08-01
+*/
+
+.selectorTrabajos {
+    width: 300px;
+    min-height: 440px;
+    float: left;
+    border: 1px solid;
+    
+}
+
+.selectorTrabajos select {
+    text-align: center;
+    margin-left: 5px;
+}
+
+.selectorTrabajos input[type="radio"]{
+    margin-top: 0px;    
+
+}
+
+.radioselector {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+.selectorTrabajos input[type="submit"]{
+    display: inline-block ;
+    width: 125px;
+    height: 35px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.selectorTrabajos h3 {
+    margin-top: 20px;
+}
+
+.buttonSelector {
+    text-align: center;
+    margin-top: 10px;
+}
+.seleccionFacturas {
+    width: 675px;
+    min-height: 440px;
+    margin-left: 15px;
+    float: left;
+}
+
+
+
+.seleccionFacturas textarea {
+    width: 650px;
+}
+
+.selectedWorks {
+    margin-top:10px;
+}
+
+.selectedWorks input {
+    text-align: right;
+}
+
+.seleccionFacturas .headNormal {
+    width: 85px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.seleccionFacturas .headShorty {
+    width: 60px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.seleccionFacturas .headSuper {
+    width: 310px;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    text-align: left;
+}
+
+.wk1{
+     border: 1px solid;
+     vertical-align: center;
+}
+.seleccionFacturas .normal {
+    width: 80px;
+}
+
+.seleccionFacturas .super {
+    width: 300px;
+    text-align: left;
+}
+
+.seleccionFacturas .shorty {
+    margin-top: 0px; 
+    width: 50px;
+}
+
+.seleccionFacturas .xsmall {
+    width: 20px;
+    vertical-align: center; 
+    border: 1px solid;
+    position: 5px 5px;
+}
+
+img {
+    margin: 0 0 0 0;
+}
+
+.amountsInvoices {
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.amountsInvoices input {
+    width: 100px;
+    text-align: right;
+}
+
+.paimentSelector {
+    margin-bottom: 15px;
+}
+
+.codeInvoices {
+    display: inline;
+    text-align: left;
+
+}
+
+.codeinvoice {
+    width: 90px;
+}
+
+.customerinvoice {
+    width: 260px;
+}
+
+.dateinvoice {
+    width: 75px;
+}
+
+.seleccionFacturas #mensaje{
+    color: red;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.buttonsInvoices {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.buttonsInvoices button {
+    display: inline-block ;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.buttonsSelected {
+    position: absolute;
+    top: 175px;
+    left: 600px;
+    width: 450px;
+}
+
+.buttonWork button{
+    text-align: left;
+    width: 350px;
+}
+
+button.imprimir{
+    float: right;
+    width: 75px;
+}
+
+.invoicesSelected {
+    position: absolute;
+    top: 175px;
+    left: 600px;
+    width: 450px;
+}
+
+.buttonInv button{
+    text-align: left;
+    width: 350px;
+}

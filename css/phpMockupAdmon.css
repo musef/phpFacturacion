@@ -1,0 +1,39 @@
+/**
+    * * * * * admon es el fichero css incluido en las vistas mainAdministracion.php y error404.php *** *
+    * * @Author musef v.1.0 2015-08-01
+*/
+
+.identificacion {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    width: 425px;
+    margin: 100px auto 50px auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-left: 10px;
+}
+
+.errorClass {
+    width: 1000px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3em;
+    text-align: center;
+    border: 1px solid;
+}
+
+.errorClass button {
+
+    background-color: appworkspace;
+    color:black;
+    
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
