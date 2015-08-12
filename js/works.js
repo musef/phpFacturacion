@@ -175,6 +175,12 @@ $(window).load(function showDisplay(){
 
 $(document).ready(function(){
 
+	// pulsado boton salir
+	$('#exit').click(function(){
+		return confirm('¿Desea abandonar la aplicación?');
+	});
+	
+	
 	$('#year').change(function changeSel(){
 		var yearSel=$('#year').val();
 		if (yearSel=='Todos los años') {

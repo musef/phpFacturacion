@@ -8,5 +8,6 @@
                 <li><button id="listados" name="listados" type="submit">Listados</button></li>
                 <li><button id="admon"    name="admon" type="submit">Administración</button></li>
             </ul>
+            <button id="exit" name="exit" type="submit">Exit</button>
         </div>
     </form>

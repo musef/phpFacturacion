@@ -445,16 +445,19 @@ function getNextWorkNumber() {
     $lista=getListWorks($_SESSION['workingCompany']);
 	$num=0;
     // buscamos el ultimo numero facturado
-	foreach ($lista as $key => $value) {
-		$numList=$value->getNumero();
-		if (substr($numList,0,3)=='15/'){
-			$numList=substr($numList,3);
-			if ($numList>$num) {
-			// cambiar el id
-			$num=$numList;
+	if ($lista!=false) {
+		foreach ($lista as $key => $value) {
+			$numList=$value->getNumero();
+			if (substr($numList,0,3)=='15/'){
+				$numList=substr($numList,3);
+				if ($numList>$num) {
+				// cambiar el id
+				$num=$numList;
+				}
 			}
-		}
+		}	
 	}
+
     // incrementamos el numero
     $num++;
 	$string="0000".(String)$num;

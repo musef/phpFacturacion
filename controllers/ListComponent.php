@@ -779,11 +779,11 @@ function listWorksNameCustomers($custIni,$custFin,$fech1,$fech2) {
     $_SESSION['cabeceraListado']=array("NOMBRE","NIF","COD.POSTAL","TOTAL BASES","TOTAL IMPORTES");  
     $_SESSION['cuerpoListado']=array();
 
+	$acumulBase=0;
+    $acumulTotal=0;  
     $listaclientes=getListCustomers($_SESSION['workingCompany']) ;
     if ($listaclientes!=false) {
-        // si hay clientes en la lista
-        $acumulBase=0;
-        $acumulTotal=0;      
+        // si hay clientes en la lista    
         foreach ($listaclientes as $key => $value) {
             if ($value->getNombre()>=$custIni && $value->getNombre()<=$custFin) {
                 // primero tomaremos los importes de cada cliente

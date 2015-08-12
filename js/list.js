@@ -33,6 +33,12 @@ $(window).load(function (){
 
 $(document).ready(function(){
 
+	// pulsado boton salir
+	$('#exit').click(function(){
+		return confirm('¿Desea abandonar la aplicación?');
+	});
+		
+	
 	// al seleccionar importes se habilitan componentes de filtros
 	$('#listadofacturas').hide();
 	$('#listadoclientes').hide();

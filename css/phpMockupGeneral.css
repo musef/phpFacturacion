@@ -75,6 +75,15 @@ h3 {
     margin-right: 10px;
 }
 
+.headerClass button#exit {
+	float:right;
+    border:none;
+    background-color: appworkspace;
+    color:black;
+    font-size: 1.3em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 .bodyClass {
     width: 1000px;

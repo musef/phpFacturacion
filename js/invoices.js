@@ -67,17 +67,12 @@ $(window).load(function (){
 });
 
 $(document).ready(function(){
-/*
-	// pulsando en algun radiobutton se activa su boton de seleccion
-	$('input:radio[name="seleccion"]').change(function(){
-		$('#Sel').css('disabled','false');
-	});
 
-	// pulsando en algun radiobutton se activa su boton de seleccion
-	$('input:radio[name="seleccionF"]').change(function(){
-		$('#SelF').css('disabled','disabled');
+	// pulsado boton salir
+	$('#exit').click(function(){
+		return confirm('¿Desea abandonar la aplicación?');
 	});
-*/
+	
 	// pulsado boton seleccion le pasa el focus a grabar
 	$('#Sel').click(function(){
 		$('#invoicesSelected').hide();

@@ -7,10 +7,11 @@
     
 
 */
-    include_once 'Init.php';
     session_start();
-    error_reporting(E_ALL & E_WARNING);
-    ini_set('display_errors', '1');
+//    error_reporting(E_ALL & E_WARNING);
+//    ini_set('display_errors', '1');
+
+    include_once 'Init.php';
 
     // lectura de inicio de sesion y variables
     generateEnvironment();

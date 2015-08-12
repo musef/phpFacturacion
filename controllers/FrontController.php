@@ -48,6 +48,8 @@ session_start();
             $dir="../mainList.php";
         } else if(isset($_POST['admon'])) {
             $dir="../mainAdministracion.php";
+        } else if(isset($_POST['exit'])) {
+            $dir="../index.php";
         }
         
         redirect($dir);

@@ -24,6 +24,12 @@ $(window).load(function showDisplay(){
 });
 
 $(document).ready(function(){
+
+	// pulsado boton salir
+	$('#exit').click(function(){
+		return confirm('¿Desea abandonar la aplicación?');
+	});
+	
 	
 	// pulsado boton eliminar
 	$('#eliminar').click(function(){

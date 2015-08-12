@@ -93,14 +93,17 @@ function getListCustomersNameToInvoices($option) {
 
     $data='<select id="customerInvoices" name="customerInvoices" ><option value="0">Seleccione cliente</option>';
     $listaclientes=getListCustomers($_SESSION['workingCompany']) ;
-    foreach ($listaclientes as $key => $value) {
-        // añadimos uno a uno
-        if ($value->getId()==$option) {
-            $data=$data.'<option value="'.$value->getId().'" selected>'.$value->getNombre().'</option>';
-        } else {
-            $data=$data.'<option value="'.$value->getId().'" >'.$value->getNombre().'</option>';
-        }      
-    }
+	if ($listaclientes!=false) {
+    	foreach ($listaclientes as $key => $value) {
+        	// añadimos uno a uno
+        	if ($value->getId()==$option) {
+            	$data=$data.'<option value="'.$value->getId().'" selected>'.$value->getNombre().'</option>';
+        	} else {
+            	$data=$data.'<option value="'.$value->getId().'" >'.$value->getNombre().'</option>';
+        	}      
+   		}	
+	}
+
     $data=$data.'</select>'; 
     echo $data;
 }
